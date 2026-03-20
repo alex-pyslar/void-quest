@@ -1,0 +1,39 @@
+[
+  { "id": "dagger",        "name": "Dagger",          "name_ru": "Кинжал",            "symbol": "!", "color": "white",   "kind": { "Weapon": { "dmg": 5  } } },
+  { "id": "iron_sword",    "name": "Iron Sword",       "name_ru": "Железный меч",      "symbol": "/", "color": "white",   "kind": { "Weapon": { "dmg": 8  } } },
+  { "id": "great_sword",   "name": "Greatsword",       "name_ru": "Двуручный меч",     "symbol": "/", "color": "blue",    "kind": { "Weapon": { "dmg": 15 } } },
+  { "id": "battle_axe",    "name": "Battle Axe",       "name_ru": "Боевой топор",      "symbol": "F", "color": "red",     "kind": { "Weapon": { "dmg": 13 } } },
+  { "id": "mace",          "name": "Holy Mace",        "name_ru": "Священная булава",  "symbol": "\\","color": "yellow",  "kind": { "Weapon": { "dmg": 9  } } },
+  { "id": "staff",         "name": "Magic Staff",      "name_ru": "Магический посох",  "symbol": "|", "color": "cyan",    "kind": { "Weapon": { "dmg": 7  } } },
+  { "id": "elven_bow",     "name": "Elven Bow",        "name_ru": "Эльфийский лук",    "symbol": "}", "color": "green",   "kind": { "Weapon": { "dmg": 11 } } },
+  { "id": "shadow_blade",  "name": "Shadow Blade",     "name_ru": "Клинок тени",       "symbol": "/", "color": "magenta", "kind": { "Weapon": { "dmg": 18 } } },
+  { "id": "void_blade",    "name": "Void Blade",       "name_ru": "Клинок пустоты",    "symbol": "/", "color": "cyan",    "kind": { "Weapon": { "dmg": 25 } } },
+  { "id": "holy_sword",    "name": "Holy Sword",       "name_ru": "Святой меч",        "symbol": "/", "color": "yellow",  "kind": { "Weapon": { "dmg": 30 } } },
+  { "id": "ice_staff",     "name": "Ice Staff",        "name_ru": "Посох льда",        "symbol": "|", "color": "cyan",    "kind": { "Weapon": { "dmg": 14 } } },
+  { "id": "fire_staff",    "name": "Fire Staff",       "name_ru": "Посох огня",        "symbol": "|", "color": "red",     "kind": { "Weapon": { "dmg": 16 } } },
+
+  { "id": "leather_armor", "name": "Leather Armor",   "name_ru": "Кожаная броня",     "symbol": "]", "color": "yellow",  "kind": { "Armor":  { "def": 5  } } },
+  { "id": "chain_mail",    "name": "Chain Mail",       "name_ru": "Кольчуга",          "symbol": "]", "color": "white",   "kind": { "Armor":  { "def": 9  } } },
+  { "id": "plate_armor",   "name": "Plate Armor",      "name_ru": "Латная броня",      "symbol": "]", "color": "blue",    "kind": { "Armor":  { "def": 15 } } },
+  { "id": "robe",          "name": "Arcane Robe",      "name_ru": "Магическое одеяние","symbol": "]", "color": "cyan",    "kind": { "Armor":  { "def": 4  } } },
+  { "id": "shadow_cloak",  "name": "Shadow Cloak",     "name_ru": "Плащ теней",        "symbol": "]", "color": "magenta", "kind": { "Armor":  { "def": 12 } } },
+  { "id": "holy_armor",    "name": "Holy Armor",       "name_ru": "Священная броня",   "symbol": "]", "color": "yellow",  "kind": { "Armor":  { "def": 20 } } },
+
+  { "id": "leather_helm",  "name": "Leather Helm",    "name_ru": "Кожаный шлем",      "symbol": "^", "color": "yellow",  "kind": { "Helmet": { "def": 3  } } },
+  { "id": "iron_helm",     "name": "Iron Helm",        "name_ru": "Железный шлем",     "symbol": "^", "color": "white",   "kind": { "Helmet": { "def": 6  } } },
+  { "id": "crown",         "name": "Mage Crown",       "name_ru": "Корона мага",       "symbol": "^", "color": "cyan",    "kind": { "Helmet": { "def": 4  } } },
+  { "id": "shadow_hood",   "name": "Shadow Hood",      "name_ru": "Капюшон тени",      "symbol": "^", "color": "magenta", "kind": { "Helmet": { "def": 8  } } },
+  { "id": "dragon_helm",   "name": "Dragon Helm",      "name_ru": "Шлем дракона",      "symbol": "^", "color": "red",     "kind": { "Helmet": { "def": 14 } } },
+
+  { "id": "hp_potion",     "name": "HP Potion",        "name_ru": "Зелье здоровья",    "symbol": "*", "color": "red",     "kind": { "Potion": { "hp": 40,  "mp": 0  } } },
+  { "id": "mp_potion",     "name": "MP Potion",        "name_ru": "Зелье маны",        "symbol": "*", "color": "blue",    "kind": { "Potion": { "hp": 0,   "mp": 30 } } },
+  { "id": "full_potion",   "name": "Elixir",           "name_ru": "Эликсир",           "symbol": "*", "color": "magenta", "kind": { "Potion": { "hp": 65,  "mp": 45 } } },
+  { "id": "mega_potion",   "name": "Mega Potion",      "name_ru": "Мега-зелье",        "symbol": "*", "color": "yellow",  "kind": { "Potion": { "hp": 120, "mp": 80 } } },
+  { "id": "antidote",      "name": "Antidote",         "name_ru": "Противоядие",       "symbol": "*", "color": "green",   "kind": { "Potion": { "hp": 15,  "mp": 0  } } },
+
+  { "id": "power_ring",    "name": "Ring of Power",    "name_ru": "Кольцо силы",       "symbol": "=", "color": "yellow",  "kind": { "Ring":   { "effect": "str", "value": 4 } } },
+  { "id": "swift_ring",    "name": "Ring of Swift",    "name_ru": "Кольцо скорости",   "symbol": "=", "color": "green",   "kind": { "Ring":   { "effect": "dex", "value": 4 } } },
+  { "id": "arcane_ring",   "name": "Ring of Arcane",   "name_ru": "Кольцо магии",      "symbol": "=", "color": "cyan",    "kind": { "Ring":   { "effect": "int", "value": 4 } } },
+  { "id": "life_ring",     "name": "Ring of Life",     "name_ru": "Кольцо жизни",      "symbol": "=", "color": "red",     "kind": { "Ring":   { "effect": "vit", "value": 4 } } },
+  { "id": "void_ring",     "name": "Ring of Void",     "name_ru": "Кольцо пустоты",    "symbol": "=", "color": "magenta", "kind": { "Ring":   { "effect": "str", "value": 8 } } }
+]

@@ -1,0 +1,95 @@
+lang = "ru"
+
+[en]
+# Window titles
+title_map        = " Map "
+title_log        = " Log "
+title_stats      = " Character "
+title_equipment  = " Equipment "
+title_inventory  = " Inventory "
+title_spells     = " Spells "
+title_chat       = " Chat [Enter to type] "
+title_actions    = " Actions "
+title_chat_input = " Chat — Enter: send, Esc: cancel "
+title_connect    = " VoidQuest — Connect "
+title_login      = " VoidQuest — Login "
+title_register   = " VoidQuest — Register "
+title_char_create= " VoidQuest — Create Character "
+title_char_offline=" VoidQuest — Create Character [OFFLINE] "
+
+# Menu items
+menu_singleplayer = "▶  Singleplayer"
+menu_multiplayer  = "   Multiplayer"
+menu_quit         = "   Quit"
+menu_subtitle     = "─── Terminal MMO RPG ───"
+
+# Badges
+badge_solo   = " ◆ SOLO"
+badge_online = " ◉ ONLINE"
+badge_sp_map = " ◆SOLO"
+
+# Hints
+hint_main_menu  = "  ↑↓ Navigate   Enter: Select   Mouse: Click   Ctrl-C: Quit"
+hint_connect    = "  Tab: switch field   Enter: connect   Esc: back"
+hint_login      = "  Enter: login   Tab: switch   r: register"
+hint_register   = "  Enter: register   Tab: switch field"
+hint_char_create= "  Tab / Shift-Tab: navigate   ←/→: change   Enter: confirm   Esc: back"
+hint_char_confirm= "  Enter: create character   Esc: back"
+hint_playing_sp = "   WASD:move  F:attack  1-5:spell  U:use  G:equip  P:pickup  Esc:menu"
+hint_playing_mp = "   Press Enter to chat   WASD:move  F:attack  U:use  G:equip  Esc:quit"
+hint_inv        = "J/K: nav  U: use  G: equip  X: drop"
+hint_inv_empty  = "(empty)"
+hint_windows    = "m:Map l:Log c:Stats i:Inv n:Spells Ctrl+R:reset"
+
+# Log messages
+log_welcome_sp  = "Welcome to Voidlands! [SINGLEPLAYER]"
+log_welcome_mp  = "Welcome to Voidlands!"
+log_controls_sp = "WASD:move  F:attack  U:use  G:equip  P:pickup  J/K:inv  Esc:menu"
+log_controls_mp = "WASD:move  F:attack  U:use  G:equip  P:pickup  J/K:inv  Enter:chat  Esc:quit"
+
+[ru]
+# Window titles
+title_map        = " Карта "
+title_log        = " Журнал "
+title_stats      = " Персонаж "
+title_equipment  = " Снаряжение "
+title_inventory  = " Инвентарь "
+title_spells     = " Заклинания "
+title_chat       = " Чат [Enter для ввода] "
+title_actions    = " Действия "
+title_chat_input = " Чат — Enter: отправить, Esc: отмена "
+title_connect    = " VoidQuest — Подключение "
+title_login      = " VoidQuest — Вход "
+title_register   = " VoidQuest — Регистрация "
+title_char_create= " VoidQuest — Создание персонажа "
+title_char_offline=" VoidQuest — Создание персонажа [ОФЛАЙН] "
+
+# Menu items
+menu_singleplayer = "▶  Одиночная игра"
+menu_multiplayer  = "   Мультиплеер"
+menu_quit         = "   Выход"
+menu_subtitle     = "─── Терминальная MMO RPG ───"
+
+# Badges
+badge_solo   = " ◆ СОЛО"
+badge_online = " ◉ ОНЛАЙН"
+badge_sp_map = " ◆СОЛО"
+
+# Hints
+hint_main_menu  = "  ↑↓ Навигация   Enter: Выбор   Мышь: Клик   Ctrl-C: Выход"
+hint_connect    = "  Tab: след. поле   Enter: подключить   Esc: назад"
+hint_login      = "  Enter: войти   Tab: поле   r: регистрация"
+hint_register   = "  Enter: зарегистрироваться   Tab: переключить поле"
+hint_char_create= "  Tab / Shift-Tab: навигация   ←/→: изменить   Enter: подтвердить   Esc: назад"
+hint_char_confirm= "  Enter: создать персонажа   Esc: назад"
+hint_playing_sp = "   WASD:ход  F:атака  1-5:заклинание  U:исп.  G:надеть  P:подобрать  Esc:меню"
+hint_playing_mp = "   Enter для чата   WASD:ход  F:атака  U:исп.  G:надеть  Esc:выход"
+hint_inv        = "J/K: нав.  U: исп.  G: надеть  X: выбросить"
+hint_inv_empty  = "(пусто)"
+hint_windows    = "m:Карта l:Журнал c:Стат. i:Инв. n:Заклин. Ctrl+R:сброс"
+
+# Log messages
+log_welcome_sp  = "Добро пожаловать в Войдлэнды! [ОДИНОЧНАЯ ИГРА]"
+log_welcome_mp  = "Добро пожаловать в Войдлэнды!"
+log_controls_sp = "WASD:ход  F:атака  U:исп.  G:надеть  P:подобрать  J/K:инв.  Esc:меню"
+log_controls_mp = "WASD:ход  F:атака  U:исп.  G:надеть  P:подобрать  J/K:инв.  Enter:чат  Esc:выход"

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo check:*)",
+      "Read(//c/Users/alex_pyslar/.cargo/bin/**)",
+      "Bash(cmd /c \"wsl ls /mnt/c/source/void-quest-console\")",
+      "Bash(find /c/source/void-quest-console/src -type f -name *.rs)",
+      "Bash(awk '{if \\(NF>0\\) print}')"
+    ]
+  }
+}

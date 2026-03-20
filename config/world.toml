@@ -1,0 +1,8 @@
+# VoidQuest server configuration
+# Edit this file to change server settings.
+
+host          = "0.0.0.0"   # bind address (use 127.0.0.1 for local-only)
+port          = 7777         # TCP port
+tick_ms       = 600          # game tick interval in milliseconds
+monster_count = 50           # initial monster population
+view_radius   = 18           # not currently used (full map sent)
